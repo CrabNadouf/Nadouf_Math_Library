@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+bin/
+include/
+lib/
+lib64/
+man/
+pip-log.txt
+pip-delete-this-directory.txt
+pip-selfcheck.json
+
+# Rust
+target/
+target/
+.rs.bk
+Cargo.lock
+
+# Testing
+test.py
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+
+# Distribution
+build/
+develop-eggs/
+dist/
+eggs/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+.project
+.pydevproject
+.ropeproject
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs & docs
+*.log
+*.mo
+*.pot
+docs/_build/
+
+# Other
+*.egg-info/
+.mr.developer.cfg
